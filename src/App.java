@@ -7,7 +7,19 @@ public class App {
     //2. Print the contents of your ArrayList using loops. This should work even if 
     //   I add more elements to your ArrayList. For example, I might add 7 to the
     //   ArrayList and this should still work.
+    
     public static void main(String[] args) throws Exception {
+
+        ArrayList <Integer> list = new ArrayList<>();
+        list.add(6);
+        list.add(3);
+        list.add(1);
+        list.add(2);
+
+        for (Integer number : list) {
+            System.out.println(number);
+        }
+        
         
     }
 }
